@@ -4,3 +4,4 @@
 // pre.innerHTML=xhr.responseText;
 const formData=new FormData()
 console.log(formData)
+console.log('hell world')

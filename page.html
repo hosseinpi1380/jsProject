@@ -5,10 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, min-max( 100px , 200px));
+        }
+        img{
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+         border: 1px solid black;
+         margin: 10px;
+        }
+
+        
+    </style>
 </head>
 <body>
     <button onclick="Next()">click me</button>
-    <span></span>
+    <div>
+        <span></span>
+        <span></span>
+        <span></span>
+        
+    </div>
     <script src="/script.js"></script>
 </body>
 </html>
